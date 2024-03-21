@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone - paper - sisccor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Welcome to rock 🪨 paper 📃 scissor ✂️</h1>
+        <div>
+            <label for="name">Enter your name to begin game:</label>
+            <input placeholder="Enter here..." class="name" type="text" name="name" id="" required>
+            <button class="start">start</button>
+            <h5 class="warn">*please provide your name, it can not be empty </h5>
+        </div>
+    </div>
+    <div class="game">
+    <div>
+        <h1 id="welcome-msg"></h1>
+        <h2 class="welcome">Welcome to rock 🪨 paper 📃 scissor ✂️</h2>
+        <h2 class="vs"></h2>
+        <br><br>
+        <span class="curr-round">ROUND 1</span>
+        <h2 class="win-msg">select one to begin game:</h2>
+    </div>
+    <div class="container">
+        <div>
+            <a href="#"><img src="./images/rock.png" id="rock" alt="rock"></a><br>
+            <span>rock</span>
+        </div>
+        <div>
+            <a href="#"><img src="./images/paper.png" id="paper" alt="paper"></a><br>
+            <span>paper</span>
+        </div>
+        <div>
+            <a href="#"><img src="./images/scissor.png" id="scissor" alt="s"></a><br>
+            <span>scissor</span>
+        </div>
+    </div> <br><br>
+
+    <div class="result">
+        <h3>total round played: 0</h3>
+        <h4></h4>
+        <h4></h4>
+        <h4></h4>
+    </div>
+
+    <!-- <div class="score-table">
+        <table border="1" >
+            <tr>
+                <th>Score Table</th>
+            </tr>
+            <tr>
+                <td>round</td>
+                <td>result</td>
+            </tr>
+        </table>
+    </div> -->
+    <div>
+        <h4 class="computer-selection">computer will select at the moment you select !!</h2>
+    </div>
+    <div class="round-info"></div>
+    <div>
+        <h3 class="comp"></h3>
+    </div>
+    <div>
+        <h2 class="result"></h2>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* * {
+    margin: 0; padding: 0;
+} */
+
+body {
+    display: flex; 
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 50 ;
+    background: linear-gradient(90deg,lightSteelBlue, linen);
+    /* justify-content: center;
+    flex-direction: row;
+    width: 100%; */
+}
+
+.name {
+    width: 60%;
+    height: 25px;
+    border: solid 3px black;
+    border-radius: 5px;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 50;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+
+.start {
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: auto;
+    padding: 0 23px;
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+
+.start:hover {
+    background-color: #6c96da;
+    color: white;
+}
+.container {
+    /* width: 100vh; */
+    display: flex;
+}
+
+div img {
+    height: 170px;
+    width: 170px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: solid 3px black;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px gray;
+}
+
+
+div span {
+    font-weight: 200;
+    position: relative;
+    left: 36%;
+}
+
+.game {
+    display: none;
+}
+
+.intro {
+    margin: 50px;
+    /* background-color: #6c96da; */
+}
+
+.warn {
+    font-size: small;
+    color: red;
+    display: none;
+
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.vs {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 12px rgb(211, 70, 70);
+}
+
+#welcome-msg {
+    color: rgb(37, 36, 36);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    text-transform: lowercase;
+    text-decoration: dashed;
+}
+
+.win-msg {
+    font-size: 24px;
+    color: rgb(47, 44, 44);
+    text-transform: lowercase;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-weight: 50; */
+}
+
+.curr-round {
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(90deg, rgb(35, 34, 34), rgb(102, 97, 97));
+    padding: 10px;
+}
+
+.welcome {
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(90deg, rgb(102, 97, 97), rgb(35, 34, 34));
+    padding: 10px;
+    width: 75%;
+}
+
+.result {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
